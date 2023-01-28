@@ -20,4 +20,6 @@
 
 ### **git diff** – увидеть разницу между текущим файлом и закоммиченным файлом
 
-[](https://get.wallhere.com/photo/1920x1080-px-mountain-nature-river-rock-645757.jpg) - добавление ссылки
+[*ссылка на пейзаж*](https://get.wallhere.com/photo/1920x1080-px-mountain-nature-river-rock-645757.jpg) - добавление ссылки
+
+* ## терпение и труд всё перетрут!
