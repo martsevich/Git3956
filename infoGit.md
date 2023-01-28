@@ -30,6 +30,6 @@
 
  [*ссылка на пейзаж*](https://get.wallhere.com/photo/1920x1080-px-mountain-nature-river-rock-645757.jpg) - добавление ссылки
 
-
+>> Или можно просто вставить ссылку в квадратные скобки [https://gist.github.com/fomvasss/8dd8cd7f88c67a4e3727f9d39224a84c]
 
 * ## **терпение и труд всё перетрут!**
