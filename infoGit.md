@@ -33,3 +33,9 @@
 >> Или можно просто вставить ссылку в квадратные скобки [https://gist.github.com/fomvasss/8dd8cd7f88c67a4e3727f9d39224a84c]
 
 * ## **терпение и труд всё перетрут!**
+
+## Основные команды Git 2-го семинара
+
+> git branch **branch_name** - 
+
+mvl;d;lgw;lek;wel;
