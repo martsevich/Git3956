@@ -38,4 +38,6 @@
 
 > git branch **branch_name** - 
 
-mvl;d;lgw;lek;wel;
+> **git checkout** -b <название ветки > - создание ветки и переход к ней
+
+> git branch -d <name> - удалить ветку с именем name
