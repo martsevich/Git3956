@@ -53,3 +53,4 @@
 > **git checkout <название ветки>** – переход к другой ветке
 
 > **git branch -d <название ветки>** – удалить ветку
+git remote set-url origin
