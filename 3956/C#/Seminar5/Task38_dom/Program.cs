@@ -10,7 +10,6 @@ int ReadNumber(string messageToUser)
     return value;
 }
 
-
 int[] GetRandomArray(int length, int leftRange, int rightRange)
 {
     int[] array = new int[length];
@@ -25,7 +24,6 @@ int[] GetRandomArray(int length, int leftRange, int rightRange)
 {
     int max = array[0];
     int min = array[0];
-    
     for(int i = 0; i < array.Length; i++)
     {
         if(array[i] > max) 
