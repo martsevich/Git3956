@@ -4,29 +4,37 @@
 // [3, 7, 23, 12] -> 19
 // [-4, -6, 89, 6] -> 0
 
-int[] FillArray(int length, int leftnum = int.MinValue, int rightnum = int.MaxValue)
+int ReadNumber(string messageToUser)
 {
-    int[] rand_arr = new int[length];
-    for (int i = 0; i < rand_arr.Length; i++)
-    {
-        rand_arr[i] = Random.Shared.Next(leftnum, rightnum);
-    }
-    return rand_arr;
+    Console.WriteLine(messageToUser);
+    return Convert.ToInt32(Console.ReadLine());
 }
 
-int[] LengthArray(int[] array)
+int[] GetRandomArray(int length, int leftRange, int rightRange)
 {
-    if(array.Length % 2 == 0) 
+    int[] array = new int[length];
+    for(int i = 0; i < array.Length; i++)
     {
-        return new int[array.Length / 2];
+        array[i] = Random.Shared.Next(leftRange, rightRange + 1);
     }
-    else
-    {
-        return new int[array.Length / 2 + 1];
-    }
+    return array;
 }
 
-int[] filled_array = FillArray(5, -10, 10);
+int IsElementInArray (int[] array)
+{
+    int sum = 0;
+    for  (int i = 1; i < array.Length; i = i + 2)
+    {
+        sum = array[i] + sum;
+    }
+    return (sum);
+}
 
-Console.WriteLine(FillArray);
-//Console.WriteLine($"{string.Join(", ", filled_array)} -> {string.Join(", ", MultiplyArray(filled_array))}");
+int lengthOfArray = ReadNumber("Задайте длину массива: ");
+int leftBorder = ReadNumber("Задайте левую границу случайного диапазона");
+int rightBorder = ReadNumber("Задайте правую границу случайного диапазона");
+int[] myArray = GetRandomArray(lengthOfArray, leftBorder, rightBorder);
+
+Console.WriteLine($"[{string.Join(", ", myArray)}]");
+int res = IsElementInArray(myArray);
+Console.WriteLine("Сумма элементов, стоящих на нечётных позициях: " + res);
